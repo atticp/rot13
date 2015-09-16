@@ -1,0 +1,13 @@
+<form name="rot13Form" ng-submit="rot13.encode()">
+    <fieldset class="form-group">
+        <textarea ng-model="rot13.input" class="form-control" placeholder="Enter text to ROT13 encode..."></textarea>
+    </fieldset>
+    <fieldset class="form-group">
+        <input id='rot13Submit' type="submit" class="btn btn-primary pull-right" value="Encode" />
+    </fieldset>
+</form>
+
+<div id='rot13Output' ng-show="rot13.output">
+    <h3>Output</h3>
+    <p>{{rot13.output}}</p>
+</div>

@@ -1,0 +1,4 @@
+node_modules
+assets
+build/coverage
+build/release/js/rot13.min.js

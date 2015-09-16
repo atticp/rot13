@@ -1,0 +1,1 @@
+angular.module('rot13', ['rot13.templates']);
