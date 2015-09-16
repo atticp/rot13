@@ -1,5 +1,5 @@
 # Rot13
-Rot13 is an angularJS app for decoding ROT13 strings
+Rot13 is an angularJS app for encoding/decoding ROT13 strings
 
 # Running Locally
 
@@ -21,6 +21,8 @@ Alternatively run just one of the test components
 
     $ jshint .
     $ karma start
+
+Open `build/release/index.html` in a browser to encode/decode ROT13 strings
 
 # Project Structure
 
